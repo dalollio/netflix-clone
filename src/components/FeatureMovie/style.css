@@ -3,11 +3,12 @@
     background-image:  url('https://img.vixdata.io/pd/jpg-large/pt/sites/default/files/f/filme-efeito-borboleta-ashton-amy-1117-1400x900.jpg'), linear-gradient(to bottom, #141414,#14141450);
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     top: 0;
     background-color: red;
     z-index: -9999;
+    margin-bottom: -5em;
 }
 
 .container-fade {

@@ -1,0 +1,6 @@
+.card {
+    width: calc(100vw/6.7);
+    height: calc(100vw/11);
+    background-color: #fff;
+    border-radius: 4px;
+}

@@ -12,8 +12,8 @@ const FeatureMovie: React.FC = () => {
                 <div className='title'>Efeito Borboleta</div>
                 <div className='description'>O estudante universitário Evan Treborn, que vive assombrado por memórias trágicas, descobre um jeito de mudar o passado</div>
                 <div className='buttons'>
-                    <Button/>
-                    <Button/>
+                    <Button label='Assistir' callback={()=>console.log("aqui")}/>
+                    <Button label='Mais informações' callback={()=>console.log("aqui")}/>
                 </div>
             </div>
           </div>

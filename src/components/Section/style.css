@@ -1,0 +1,56 @@
+.section-stripe {
+    margin-left: 2.6em;
+    margin-right: 2.6em;
+    margin-bottom: 2rem;
+}
+
+.stripe-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* position: absolute; */
+}
+
+.stripe-titles:first-child {
+    margin-left: 2.6em;
+}
+
+.section-stripe .title {
+    text-align: left;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.stripe-container {
+    width: 100vw;
+    position:static;
+    margin-left: -2.6em;
+    left: 0;
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
+.nav-btn {
+    width: 3em;
+    height: calc(9.18vw);
+    position:absolute;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c90000;
+    opacity: 0.8;
+    color: #fff;
+}
+
+.nav-btn:hover {
+    opacity: 1;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
